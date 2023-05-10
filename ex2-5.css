@@ -1,0 +1,45 @@
+div {
+    margin: 20px 0
+}
+
+.header {
+    height: 100px;
+    background-color: #ffc0cb;
+    border: solid #ff0000
+}
+
+.navbar {
+    height: 200px;
+    background-color: #ffd700;
+    border: solid #a52a2a
+}
+
+.content {
+    height: 300px;
+    background-color: #87ceeb;
+    border: solid #0000ff
+}
+
+.footer {
+    height: 200px;
+    background-color: #90ee90;
+    border: solid #008000
+}
+
+@media only screen and (min-width: 800px) {
+    .body>div {
+        margin: 0
+    }
+
+    .navbar {
+        width: 20%;
+        height: 500px;
+        display: inline-block
+    }
+
+    .content {
+        width: 79%; /* 합이 100% -> 밀려남 */
+        height: 500px;
+        display: inline-block
+    }
+}
